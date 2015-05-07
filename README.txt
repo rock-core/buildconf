@@ -45,7 +45,7 @@ overrides.yml:
   information for specific packages.  Most people leave this to the default,
   unless they want to use a feature from an experimental branch. See the following
   page for a description of its contents.
-    http://www.rock-robotics.org/stable/documentation/autoproj/advanced/importers.html
+    http://www.rock-robotics.org/release/documentation/autoproj/advanced/importers.html
 
 init.rb:
   Ruby script that contains customization code that will get executed before
