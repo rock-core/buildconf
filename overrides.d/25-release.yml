@@ -111,10 +111,6 @@
     branch: indigo-devel
     tag: 0.3.6
     commit: 
-- tools/rubigen:
-    branch: master
-    tag: 
-    commit: 66e547cba6fef517564e1965c80c3793bcd26b29
 - external/sisl:
     branch: master
     tag: 
