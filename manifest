@@ -6,6 +6,7 @@
 package_sets:
    - github: rock-core/package_set
    - github: rock-core/rock-package_set
+     branch: use_standard_autotools_package_for_libusb
    - github: rock-tutorials/tutorials-package_set
    - github: rock-simulation/simulation-package_set
    - github: rock-core/rock.build-tests-package_set
