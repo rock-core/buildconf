@@ -16,11 +16,11 @@ package_sets:
 # Layout. Note that the rock.base and orocos.toolchain sets are
 # imported by other rock sets.
 layout:
-   - rock.core.all
-   - rock.build-tests.all
-   - rock.all
-   - rock.simulation.all
-   - rock.tutorials.all
+   - rock.core
+   - rock.build-tests
+   - rock
+   - rock.simulation
+   - rock.tutorials
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the package_sets above
    # - rock.ros
