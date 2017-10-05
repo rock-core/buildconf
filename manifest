@@ -19,8 +19,8 @@ layout:
    - rock.core.all
    - rock.build-tests.all
    - rock.all
-   - rock-simulation.all
-   - rock-tutorials.all
+   - rock.simulation.all
+   - rock.tutorials.all
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the package_sets above
    # - rock.ros
