@@ -8,6 +8,7 @@ package_sets:
    - github: rock-core/rock-package_set
    - github: rock-tutorials/tutorials-package_set
    - github: rock-simulation/simulation-package_set
+   - github: rock-core/rock.build-tests-package_set
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the layout below
    # - gitorious: rock-ros/package_set
@@ -15,7 +16,11 @@ package_sets:
 # Layout. Note that the rock.base and orocos.toolchain sets are
 # imported by other rock sets.
 layout:
-   - rock.core
+   - rock.core.all
+   - rock.build-tests.all
+   - rock.all
+   - rock-simulation.all
+   - rock-tutorials.all
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the package_sets above
    # - rock.ros
