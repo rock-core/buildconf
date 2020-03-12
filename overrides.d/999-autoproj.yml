@@ -1,0 +1,3 @@
+---
+- tools/pocolog:
+    remote_branch: refs/pull/17/merge
