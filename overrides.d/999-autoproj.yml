@@ -1,0 +1,5 @@
+---
+- pkg_set:github:/rock-core/package_set.git:
+    remote_branch: refs/pull/191/merge
+- tools/syskit:
+    remote_branch: refs/pull/275/merge
