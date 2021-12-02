@@ -2,7 +2,15 @@
 # in the package sets. Below is an example to change the branch name for a given
 # package
 #
-# overrides:
-#   - rtt
-#     branch: test
-#  
+overrides:
+  - gui/vizkit3d:
+    branch: feature/qt5
+  
+  - gui/rock_widget_collection:
+    branch: feature/qt5
+  
+  - base/types:
+    branch: feature/qt5
+  
+  - gui/osg_qt4:
+    branch: feature/qt5
