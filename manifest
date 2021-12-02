@@ -5,6 +5,7 @@
 
 package_sets:
    - github: rock-core/package_set
+     branch: feature/qt5
    - github: rock-core/rock-package_set
    - github: rock-tutorials/tutorials-package_set
    ## MARS Simulation, see https://github.com/rock-simulation/mars/wiki
@@ -67,8 +68,8 @@ layout:
 # For instance, let's assume the orocos/rtt is already installed on your
 # machine. You would then simply do:
 #
-ignored_packages:
-  - gui/vizkit
+# ignored_packages:
+#  - gui/vizkit
 #
 
 
