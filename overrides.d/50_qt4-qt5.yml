@@ -1,0 +1,33 @@
+- pkg_set:github:/rock-core/package_set.git:
+  github: pierrewillenbrockdfki/rock_core_package_set
+  tag: ~
+  branch: feature/qt4-qt5
+  commit: 
+
+- pkg_set:github:/rock-core/rock-package_set.git:
+  github: pierrewillenbrockdfki/rock_core_rock_package_set
+  tag: ~
+  branch: feature/qt4-qt5
+  commit: 
+
+- base/cmake:
+  github: pierrewillenbrockdfki/base-cmake
+  branch: wip-qt4-qt5
+
+- gui/vizkit3d:
+  github: pierrewillenbrockdfki/gui-vizkit3d
+  branch: feature/qt4-qt5
+
+- base/types:
+  github: pierrewillenbrockdfki/base-types
+  branch: feature/qt4-qt5
+
+- gui/rock_widget_collection:
+  branch: feature/qt4-qt5    
+
+- gui/osg_qt5:
+  branch: feature/qt4-qt5    
+
+- gui/osg_qt4:
+  branch: fix-pc-name-field
+
